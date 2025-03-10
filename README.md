@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date:10.03.2025
+## Register Number:212224040120
+## Name:ILEVARASEN.S
 ## Problem Title
 SIH 1653: Web based Selector-Applicant Simulation Software
 ## Problem Description
@@ -11,16 +11,46 @@ Background: Recruitment and Assessment Centre (RAC) under DRDO, Ministry of Defe
 Ministry of Defence
 
 ## Idea
-
+AI-Powered Questioning:
+Automated, relevant question generation based on candidate profiles.
+Relevance scoring of expert selected questions.
+Automated Response Analysis:
+NLP/ML analysis of candidate responses for relevance, accuracy, and depth.
+Real-time feedback to interviewers.
+Quantifiable Scoring:
+Objective scoring algorithm for both question relevance and response quality.
+Comprehensive score reports.
+Virtual Board Room:
+Simulated environment for realistic interviews.
+Video conferencing, virtual whiteboard, and screen sharing.
+Structured Templates & Question Banks:
+Standardized interview structure and categorized question database.
+Scoring rubrics.
+Data Analytics & Calibration:
+Data-driven process improvement.
+Peer review and calibration for consistency.
+Goal: Create a more objective, efficient, and realistic interview experience.
 
 ## Proposed Solution / Architecture Diagram
+![What-is-web-application-architecture](https://github.com/user-attachments/assets/b1a42f6d-c559-4c0a-b2a1-ffab3e90e803)
 
 
 ## Use Cases
+![Use-Case-Diagram-for-Web-based-System (1)](https://github.com/user-attachments/assets/a7773da4-6f8b-4376-9a41-c3feabb2af83)
 
 
 ## Technology Stack
-
+Backend: Python (Django/Flask), PostgreSQL
+AI: spaCy/NLTK, Scikit-learn
+Frontend: React/Vue.js, WebRTC
+Deployment: Docker
+Security: OAuth, TLS.
 
 ## Dependencies
+Backend: django/flask, psycopg2, spacy/nltk, sklearn
 
+Frontend: react/vue, WebRTC
+
+Deploy: docker
+
+Security: jwt, OAuth
